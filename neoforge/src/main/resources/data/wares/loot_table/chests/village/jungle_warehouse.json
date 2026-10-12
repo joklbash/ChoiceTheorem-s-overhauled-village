@@ -59,8 +59,8 @@
                     "expand": false,
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/jungle_payment_sell\",requested:\"wares:agreement/village/jungle_requested_sell\"}"
+							"function": "minecraft:set_components",
+							"components": {"minecraft:custom_data":{"experience":{"max":32,"min":12,"step":4},"ordered":{"max":256,"min":64,"step":8},"payment":"wares:agreement/village/jungle_payment_sell","requested":"wares:agreement/village/jungle_requested_sell"}}
 						},
 						{
 							"function": "minecraft:set_count",
@@ -76,8 +76,8 @@
                     "expand": false,
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/jungle_payment_buy\",requested:\"wares:agreement/village/jungle_requested_buy\"}"
+							"function": "minecraft:set_components",
+							"components": {"minecraft:custom_data":{"experience":{"max":32,"min":12,"step":4},"ordered":{"max":256,"min":64,"step":8},"payment":"wares:agreement/village/jungle_payment_buy","requested":"wares:agreement/village/jungle_requested_buy"}}
 						},
 						{
 							"function": "minecraft:set_count",
